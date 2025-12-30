@@ -1,2 +1,1 @@
-# Считать все файлы .xml как файлы на C++ (условно)
-*.xml linguist-language=C++
+DPOne.exe linguist-language=C++
