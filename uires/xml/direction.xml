@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<include width="500" height="500">
+	<window weight="1" layout="hbox" visible="1" name="wnd_dir_parent" gravity="center" display="0">
+		<group layout="vbox" layout_gravity="center" extend="5, 0, 10, 0" name="gp_mainled_direction_parent" align="left" headerHeight="0" round="1" valign="middle" colorLine1="#4f4f4fff" colorLine2="#4f4f4f55" gravity="center">
+			Direction
+			<window layout="vbox" weight="1" extend="0, 20, 0, 10" display="0" name="rdo_dir_vecthorz_parent">
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" display="0" name="radio_mainled_dir_left">Left</radioex>
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" display="0" name="radio_mainled_dir_right">Right</radioex>
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" display="0" name="radio_mainled_dir_top">Top</radioex>
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" display="0" name="radio_mainled_dir_bottom">Bottom</radioex>
+			</window>
+			<window layout="vbox" weight="1" extend="0, 10, 0, 10" display="0" name="rdo_dir_clock_parent">
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_clockwise">Clockwise</radioex>
+				<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_anticlockwise">Anticlockwise</radioex>
+			</window>
+		</group>
+	</window>
+</include>

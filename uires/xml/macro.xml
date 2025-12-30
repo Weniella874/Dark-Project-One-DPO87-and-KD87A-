@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<SOUI name="window" title="Layout" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="750" height="576" margin="1,5,5,5" wndType="8" appWnd="1">
+  <root cache="1">
+    <window pos="0,0" colorBkgnd="#ffffffff" skin="skin_win_macro_bg_png" size="750, 576">
+      <caption pos="-76,0" focusable="1" drawfocusrect="0">
+        <imgbtn name="btnMin" skin="_skin.sys.btn.minimize" pos="0,0" animate="1" />
+        <imgbtn name="btnRestore" skin="_skin.sys.btn.restore" pos="38,0" show="0" animate="1" />
+        <imgbtn name="btnCancel" skin="_skin.sys.btn.close" pos="38,0" tip="close" animate="1" />
+      </caption>
+      <text pos="20,10" colorText="#ffffffff">Recording keys</text>
+      <text name="text_recording_keys" pos="188,[-18" size="192, 24" cueText="" colorText="#ffffffff" skin="skin_bg_macr_keys_png" notifyChange="1" colorTextHover="#ffffffff" inset="10,0" />
+      <tabctrl2 name="tab_macro_mode_selection" size="712,460" tabAlign="top" colorText="#ffffff" pos="20,40" show="1" curSel="0" focusable="0" tabHeight="40" tabSkin="skin_state_func_bg_png" text-y="12" icon-x="12" layout_gravity="bottom" tabWidth="178" colorBkgnd="#44444488">
+        <page2 title="Macro key" tip="Macro key">
+          <combobox inset="20,0" name="macro_play_mode" size="256, 30" dropHeight="150" dotted="0" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="278,18" skin="skin_cbox_profile_normal_png" btnSkin="skin_cbox_profile_ico_png" autoFitDropBtn="1" dropDown="1">
+            <liststyle text-x="20" inset="30,0" iconSkin="" itemSkin="" itemHeight="40" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+            <editstyle inset="5,0,5,0" colorText="#000000" align="left" enable="0" colorBkgnd="#ffffffff" />
+            <items>
+              <item text="intercept" data="0" />
+              <item text="times play" data="1" />
+              <item text="hold play" data="2" />
+              <item text="loop play" data="3" />
+              <item text="times buffered" data="3" />
+              <item text="loop any break" data="3" />
+              <item text="loop other break" data="3" />
+            </items>
+          </combobox>
+          <imgbtn pos="550,8" size="32, 32" name="item_up" tip="" animate="1" skin="skin_state_up_png" />
+          <imgbtn pos="588,8" size="32, 32" name="item_down" tip="" animate="1" skin="skin_state_down_png" />
+          <imgbtn pos="628,8" size="32, 32" name="item_delete" tip="" animate="1" skin="skin_state_del_png" />
+          <imgbtn pos="666,8" size="32, 32" name="item_clear" tip="" animate="1" skin="skin_state_clear_png" />
+          <text pos="284,2" colorText="#ffffffff">Keys and delay</text>
+          <text pos="18,22" colorText="#ffffffff">MGroup</text>
+          <imgbtn pos="150,8" size="32, 32" tip="" animate="1" skin="skin_state_del_png" name="groupDel" />
+          <imgbtn pos="196,8" size="32, 32" tip="" animate="1" skin="skin_state_add_png" name="groupAdd" />
+          <imgbtn pos="162,8" size="32, 32" tip="" animate="1" skin="skin_state_import_png" name="groupImport" show="0" />
+          <imgbtn pos="200,8" size="32, 32" tip="" animate="1" skin="skin_state_export_png" name="groupExport" show="0" />
+          <listview size="216, 272" dividerSize="0" wantTab="1" pos="18,48" skin="skin_bg_macro_group_png" name="macro_group" dividerSkin="skin_state_func_bg_png">
+            <template itemHeight="40" colorHover="#cccccc" colorSelected="#0000ff" trackMouseEvent="1" skin="skin_state_record_png">
+              <editex pos="0,0" size="280,40" cueText="" colorText="#ffffff" name="group_name" notifyChange="1" />
+            </template>
+          </listview>
+          <mclistview name="macro_items" size="442, 304" headerHeight="30" pos="252,48" skin="image_bg_macro_content_png" hotTrack="1">
+            <header align="center" itemSwapEnable="1" fixWidth="0" sortHeader="1" colorText="#ffffffff" itemSkin="skin_state_func_bg_png">
+              <items>
+                <item width="70">Code</item>
+                <item width="80">Name</item>
+                <item width="120">State</item>
+                <item width="175">Delay/ms</item>
+              </items>
+            </header>
+            <template itemHeight="40" colorHover="#cccccc" colorSelected="#0000ff">
+              <window name="col1" clipClient="1">
+                <editex pos="0,|0" width="70" offset="0.5,-0.5" colorText="#ffffff" name="key_code">00</editex>
+              </window>
+              <window name="col2" clipClient="1">
+                <text name="key_name" align="center" valign="middle" width="80" pos="0,|0" offset="0,-0.5" dotted="1" colorText="#ffffff">Key name</text>
+              </window>
+              <window name="col3" clipClient="1">
+                <text name="key_state" align="center" valign="middle" width="120" pos="0,|0" offset="0,-0.5" colorText="#ffffff">85.92M</text>
+              </window>
+              <window name="col4" clipClient="1">
+                <editex pos="0,|0" align="center" valign="middle" width="175" offset="0,-0.5" colorText="#ffffff" name="key_delay" notifyChange="1">99</editex>
+              </window>
+            </template>
+          </mclistview>
+          <text pos="280,368" width="75" align="right">Repeat</text>
+          <edit name="edit_macro_repeat_times" pos="390,360" size="92, 24" colorBkgnd="#FFFFFF" cueText="1" colorText="#000000" inset="8" notifyChange="1" />
+          <edit name="edit_macro_delay_time" pos="390,390" size="92, 24" colorBkgnd="#FFFFFF" cueText="ms" colorText="#000000" inset="8" notifyChange="1" />
+          <radio name="chk_macro_realy_delay" pos="24,330" size="208, 30" skin="_skin.sys.radio" colorText="#ffffffff" checked="0">Record Delay</radio>
+          <radio name="chk_macro_fixed_delay" pos="24,360" size="240, 30" skin="_skin.sys.radio" colorText="#ffffffff" checked="0">Fixed Delay</radio>
+          <radio name="chk_macro_no_delay" pos="24,390" size="208, 30" skin="_skin.sys.radio" colorText="#ffffffff" checked="0">No Delay</radio>
+          <checkex name="chk_macro_record" pos="494,360" size="208, 50" colorText="#ffffffff" skin="skin_state_record_png" inset="10" align="center">Start record</checkex>
+          <text pos="280,396" width="75" align="right">Delay</text>
+        </page2>
+        <page2 title="Single key" tip="Single key">
+          <checkex textX="40" name="chk_single_record" pos="288,248" size="168, 40" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" inset="30" display="0" show="0">Start record</checkex>
+          <text name="edit_single_key" pos="268,216" size="176, 40" colorBkgnd="#FFFFFF" cueText="key name" colorText="#000000" align="center" valign="middle" />
+          <text pos="0,72" align="center" valign="middle" width="712" height="120" padding="10">Please press the keyboard to get the key</text>
+        </page2>
+        <page2 title="Media key" tip="Media key">
+          <combobox name="cmb_media_keys" colorBorder="#FFFFFF" margin-x="10" margin-y="2" size="248, 40" dropDown="1" dropHeight="150" dotted="0" animateTime="200" curSel="0" drawFocusRect="0" colorText="#000000ff" colorBkgnd="#FFFFFF" pos="256,198">
+            <liststyle colorBorder="#FFFFFF" margin-x="10" margin-y="2" iconSkin="" itemSkin="" itemHeight="24" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+            <editstyle inset="5,0,5,0" colorText="#000000" align="center" colorBkgnd="#FFFFFF" />
+            <items />
+          </combobox>
+        </page2>
+        <page2 title="Function key" tip="Function key">
+          <combobox name="cmb_function_keys" inset="10, 0" size="248, 40" dropDown="1" dropHeight="150" dotted="0" animateTime="200" curSel="0" drawFocusRect="0" colorText="#000000ff" colorBkgnd="#FFFFFF" pos="256,198" autoFitDropBtn="1">
+            <liststyle colorBorder="#FFFFFF" margin-x="10" margin-y="2" iconSkin="" itemSkin="" itemHeight="24" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+            <editstyle inset="10,0,5,0" colorText="#000000" align="center" colorBkgnd="#FFFFFF" />
+            <items />
+          </combobox>
+        </page2>
+      </tabctrl2>
+      <window trCtx="macro" pos="20,518" size="712, 48">
+        <imgbtn name="btnCancel" pos="515,4" size="192, 40" tip="" animate="1" skin="skin_state_cancel_png" colorText="#ffffffff">Cancel</imgbtn>
+        <imgbtn name="btnOK" pos="262,4" size="240, 40" tip="" animate="1" skin="skin_state_ok_png" colorText="#ffffffff">Apply</imgbtn>
+        <imgbtn name="btnDelete" pos="6,4" size="240, 40" colorText="#000000" skin="skin_state_cancel_png">Delete</imgbtn>
+      </window>
+    </window>
+  </root>
+</SOUI>
+
+
+

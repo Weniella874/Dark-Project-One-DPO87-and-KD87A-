@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<include width="365" height="200">
+	<window extend="0,0,10,0" weight="2" layout="vbox" name="kbpanel_color_container" display="0">
+		<window weight="1" layout="hbox" colorBkgnd="#4f4f4f55" display="0" colorTextHover="#ffffffff">
+			<window layout="vbox" extend="30,0,30,0">
+				<window layout="hbox">
+					<stimage name="color_panel_pad" size="150,150" weight="1" layout_gravity="center" skin="skin_color_panel_png" />
+					<window weight="1" layout="vbox" extend="10">
+						<window weight="1">
+							<window name="color_panel_preview" layout_gravity="center" size="85,42" weight="1" colorBkgnd="#000000ff" />
+						</window>
+						<window weight="2" layout="vbox">
+							<window extend="0,10,0,0" weight="1" layout="hbox" gravity="center">
+								<text extend="10">R</text>
+								<edit name="color_panel_r" size="58,24" colorBkgnd="#FFFFFF" cueText="255" colorText="#000000" readOnly="1" align="center" number="1" />
+							</window>
+							<window extend="0,10,0,0" weight="1" layout="hbox" gravity="center">
+								<text extend="10">G</text>
+								<edit name="color_panel_g" size="58,24" colorBkgnd="#FFFFFF" cueText="255" colorText="#000000" readOnly="1" number="1" align="center" maxBuf="3" />
+							</window>
+							<window extend="0,10,0,0" weight="1" layout="hbox" gravity="center">
+								<text extend="10">B</text>
+								<edit name="color_panel_b" size="58,24" colorBkgnd="#FFFFFF" cueText="" colorText="#000000" align="center" readOnly="1" number="1" maxBuf="3" />
+							</window>
+						</window>
+					</window>
+				</window>
+				<window layout="hbox" extend="0,5,0,5">
+					<radioex name="radio_color_panel_auto" extend="5,5,5,5" size="20,20" skin="skin_state_auto_color_png" display="0" />
+					<radioex name="radio_color_panel_defcol0" extend="5,5,5,5" size="20,20" colorBkgnd="#000000ff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol1" extend="5,5,5,5" size="20,20" colorBkgnd="#ff0000ff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol2" extend="5,5,5,5" size="20,20" colorBkgnd="#00ff00ff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol3" extend="5,5,5,5" size="20,20" colorBkgnd="#0000ffff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol4" extend="5,5,5,5" size="20,20" colorBkgnd="#ffff00ff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol5" extend="5,5,5,5" size="20,20" colorBkgnd="#ff00ffff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol6" extend="5,5,5,5" size="20,20" colorBkgnd="#00ffffff" weight="1" skin="skin_state_color_select_png" />
+					<radioex name="radio_color_panel_defcol7" extend="5,5,5,5" size="20,20" colorBkgnd="#ffffffff" weight="1" skin="skin_state_color_select_png" />
+				</window>
+			</window>
+		</window>
+	</window>
+</include>

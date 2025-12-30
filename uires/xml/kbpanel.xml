@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<include width="800" height="610">
+<window layout="vbox" size="-2,610" >
+    <window layout="hbox" inset="138,0,5,0" gravity="center" layout_gravity="0" height="30">
+      <text pos="160,42" width="250" align="center">Color effects</text>
+      <combobox name="cmb_mainled_light_mode_normal" inset="20, 0" size="260, 30" dropDown="1" dotted="0" animateTime="200" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="368,36" btnSkin="skin_icon_color_effects_png" autoFitDropBtn="1" skin="skin_state_color_effects_png" offset="0, 0" display="0">
+        <liststyle text-x="20" iconSkin="" itemSkin="" itemHeight="24" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+        <editstyle inset="5,0,5,0" colorText="#000000" align="left" colorBkgnd="#FFFFFF" />
+        <items>
+          <item text="Const" icon="2" data="1" tran="常量模式" />
+          <item text="Ambilight Wave" icon="2" data="1" tran="波浪模式" />
+          <item text="Cross" icon="2" data="1" tran="十字交火模式" />
+          <item text="Point" icon="2" data="1" tran="单点亮模式" />
+          <item text="Custom" icon="2" data="1" tran="自定义模式" />
+          <item text="Stars" icon="2" data="1" tran="繁星模式" />
+          <item text="Snow" icon="2" data="1" tran="下雪模式" />
+          <item text="Rain" icon="2" data="1" tran="下雨模式" />
+          <item text="Spectrum" icon="2" data="1" tran="光谱模式" />
+          <item text="Breathe" icon="2" data="1" tran="呼吸模式" />
+          <item text="Line Diffusion" icon="2" data="1" tran="行扩散模式" />
+          <item text="Plumflower" icon="2" data="1" tran="梅花模式" />
+          <item text="Heartrate" icon="2" data="1" tran="心跳模式" />
+          <item text="Shoot" icon="2" data="1" tran="射击模式" />
+          <item text="Ambilight Rotate" icon="2" data="1" tran="旋转模式" />
+          <item text="Ambilight Rect Cone" icon="2" data="1" tran="环形模式" />
+          <item text="Circle Diffusion" icon="2" data="1" tran="涟漪模式" />
+          <item text="Close" icon="2" data="1" tran="关闭模式" />
+          <item text="MultiLayer" icon="2" data="1" tran="叠加模式" />
+          <item text="MultiZone" icon="2" data="1" tran="区块模式" />
+        </items>
+      </combobox>
+    </window>
+    <cbimg size="506, 231" name="cbimg_led_effect" type="0" skin="skin_img_keyboard_bg_png" coords="/keyboardpos.xml" layout_gravity="center" enable="0" select="1" bground="#ffffffff" fground="#ffffffff" />
+    <window weight="1" name="tab_color_effect" colorBkgnd="#4f4f4f55" layout="hbox" width="-2" margin="20, 10, 20, 10">
+      <window weight="1" />
+      <window layout="vbox" layout_gravity="center" gravity="center" weight="3">
+        <window layout="hbox">
+          <window name="win_color_panel_foreground" display="0" layout="vbox">
+            <window>Foreground</window>
+            <include src="layout:color_panel" />
+          </window>
+          <window name="win_color_panel_background" display="0" layout="vbox">
+            <window>Background</window>
+            <include src="layout:color_panel" />
+          </window>
+        </window>
+        <window weight="1" layout="hbox" width="-2">
+          <window weight="1" layout="vbox" height="-2">
+            <window name="bar_mainled_speed_parent" layout="hbox" weight="1" width="-2" gravity="center" display="0">
+              <text weight="1" align="center">Speed</text>
+              <sliderbar name="bar_mainled_speed" thumbInRail="0" alpha="200" width="280" value="2" min="0" max="4" bkgndSkin="skin_bg_progress_bg_png" posSkin="skin_bg_progress_pos_png" thumbSkin="skin_state_progres_thum_png" />
+            </window>
+            <window name="bar_mainled_fgbrightness_parent" layout="hbox" weight="1" gravity="center" width="-2" display="0">
+              <text weight="1" align="center">ForegroundBrightness</text>
+              <sliderbar name="bar_mainled_fgbrightness" thumbInRail="0" alpha="200" width="280" value="127" min="0" max="127" bkgndSkin="skin_bg_progress_bg_png" posSkin="skin_bg_progress_pos_png" thumbSkin="skin_state_progres_thum_png" />
+            </window>
+            <window name="bar_mainled_bgbrightness_parent" layout="hbox" weight="1" gravity="center" width="-2" display="0">
+              <text weight="1" align="center">BackroundBrightness</text>
+              <sliderbar name="bar_mainled_bgbrightness" thumbInRail="0" alpha="200" width="280" value="127" min="0" max="127" bkgndSkin="skin_bg_progress_bg_png" posSkin="skin_bg_progress_pos_png" thumbSkin="skin_state_progres_thum_png" />
+            </window>
+            <!--<window weight="1" layout="hbox" width="-2" display="0" visible="1" name="wnd_dir_parent">
+						<group layout="hbox" layout_gravity="center" extend="5, 0, 10, 0" name="gp_mainled_direction_parent" align="left" headerHeight="0" round="1" valign="middle" colorLine1="#4f4f4fff" colorLine2="#4f4f4f55" gravity="center" display="0">
+							Direction
+							<window layout="hbox" weight="1" extend="0, 20, 0, 10" display="0" name="rdo_dir_vecthorz_parent">
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_left">Left</radioex>
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_right">Right</radioex>
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_top">Top</radioex>
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_bottom">Bottom</radioex>
+							</window>
+							<window layout="hbox" weight="1" extend="0, 10, 0, 10" display="0" name="rdo_dir_clock_parent">
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_clockwise">Clockwise</radioex>
+								<radioex extend="10,0,10,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="radio_mainled_dir_anticlockwise">Anticlockwise</radioex>
+							</window>
+						</group>
+					</window>
+				</window>-->
+          </window>
+        </window>
+      </window>
+      <window weight="1" layout="vbox" gravity="center" height="-2">
+        <window weight="1" width="-2" />
+        <window weight="1" layout="hbox" gravity="center">
+          <include weight="1" display="0" src="layout:direction" />
+        </window>
+        <window weight="1" layout="hbox" gravity="center">
+          <combobox inset="20,1170" display="0" name="cmb_custom_index" size="180, 40" dropHeight="150" dotted="0" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="{0,348" skin="skin_cbox_profile_normal_png" btnSkin="skin_cbox_profile_ico_png" autoFitDropBtn="1" dropDown="1">
+            <liststyle text-x="20" inset="30,0" iconSkin="" itemSkin="" itemHeight="40" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+            <editstyle inset="5,0,5,0" colorText="#000000" align="left" enable="0" colorBkgnd="#ffffffff" />
+            <items>
+              <item text="Custom 1" data="0" />
+              <item text="Custom 2" data="1" />
+              <item text="Custom 3" data="2" />
+              <item text="Custom 4" data="3" />
+              <item text="Custom 5" data="3" />
+            </items>
+          </combobox>
+        </window>
+        <window weight="1" width="-2" />
+      </window>
+    </window>
+  </window>
+</include>

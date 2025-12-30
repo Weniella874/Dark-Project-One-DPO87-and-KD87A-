@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<include width="800" height="510">
+  <window layout="vbox" size="-2,510">
+    <window layout="hbox" gravity="center" layout_gravity="center" height="70">
+      <text pos="160,42" width="200" align="right">Color effects</text>
+      <combobox name="kbside_cmb_light_mode" inset="20, 0" size="260, 30" dropDown="1" dotted="0" animateTime="200" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="368,36" btnSkin="skin_icon_color_effects_png" autoFitDropBtn="1" skin="skin_state_color_effects_png" offset="0, 0" display="0">
+        <liststyle text-x="20" iconSkin="" itemSkin="" itemHeight="24" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+        <editstyle inset="5,0,5,0" colorText="#000000" align="left" colorBkgnd="#FFFFFF" />
+        <items>
+          <item text="Ambilight" icon="2" data="1" />
+          <item text="Spectral cycle" icon="2" data="1" />
+          <item text="Seven colors breath" icon="2" data="1" />
+          <item text="Constant bright-red" icon="2" data="1" />
+          <item text="Constant bright-green" icon="2" data="1" />
+          <item text="Constant bright-blue" icon="2" data="1" />
+          <item text="Constant bright-yellow" icon="2" data="1" />
+          <item text="Constant bright-purple" icon="2" data="1" />
+          <item text="Constant bright-cyan" icon="2" data="1" />
+          <item text="Constant bright-white" icon="2" data="1" />
+          <item text="Constant bright-mixed" icon="2" data="1" />
+        </items>
+      </combobox>
+    </window>
+    <window size="506, 231" skin="skin_img_keyboard_bg_png" layout_gravity="center" enable="0" />
+    <window weight="1" layout="vbox" height="-1" gravity="center" layout_gravity="center">
+      <window weight="1" />
+      <window name="kbside_bar_speed_parent" layout="hbox" weight="1" gravity="center" display="0">
+        <text width="80" extend="10,10,10,10" align="center">Speed</text>
+        <sliderbar name="kbside_bar_speed" size="280, 24" thumbInRail="0" alpha="200" width="280" value="2" min="0" max="4" bkgndSkin="skin_bg_progress_bg_png" posSkin="skin_bg_progress_pos_png" thumbSkin="skin_state_progres_thum_png" />
+      </window>
+      <window name="kbside_bar_brightness_parent" layout="hbox" weight="1" gravity="center" display="0">
+        <text width="80" align="center" extend="10,10,10,10">Brightness</text>
+        <sliderbar name="kbside_bar_brightness" size="280, 24" thumbInRail="0" alpha="200" width="280" value="127" min="0" max="127" bkgndSkin="skin_bg_progress_bg_png" posSkin="skin_bg_progress_pos_png" thumbSkin="skin_state_progres_thum_png" />
+      </window>
+      <window name="kbside_gp_color_parent" weight="1" gravity="center" layout_gravity="center" display="0">
+        <group size="-1, 68" headerHeight="0" round="1" colorLine1="#4f4f4fff" colorLine2="#4f4f4f55" align="left" gravity="center" layout="hbox">
+          Color
+          <radioex extend="5,5,5,0" size="30, 30" name="kbside_radio_color0" skin="skin_state_auto_color_png" display="0" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#ff0000ff" name="kbside_radio_color1" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#00ff00ff" name="kbside_radio_color2" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#0000ffff" name="kbside_radio_color3" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#ffff00ff" name="kbside_radio_color4" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#ff00ffff" name="kbside_radio_color5" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#00ffffff" name="kbside_radio_color6" skin="skin_state_color_select_png" />
+          <radioex extend="5,5,5,0" size="30, 30" colorBkgnd="#ffffffff" name="kbside_radio_color7" skin="skin_state_color_select_png" />
+        </group>
+      </window>
+      <group layout="hbox" size="400, 50" extend="5,5,5,5" name="kbside_gp_direction_parent" align="left" headerHeight="0" round="1" valign="middle" colorLine1="#4f4f4fff" colorLine2="#4f4f4f55" gravity="center" display="0">
+        Direction
+        <radioex extend="5,0,5,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="kbside_radio_dir_left">Left</radioex>
+        <radioex extend="5,0,5,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="kbside_radio_dir_right">Right</radioex>
+        <radioex extend="5,0,5,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="kbside_radio_dir_top">Top</radioex>
+        <radioex extend="5,0,5,0" size="88, 32" iconSkin="_skin.sys.radio" iconPos="10, 0" name="kbside_radio_dir_bottom">Bottom</radioex>
+      </group>
+      <window weight="1" />
+    </window>
+  </window>
+</include>
+

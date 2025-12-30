@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="Russian" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--Русский перевод-->
+    <message><source>Insufficient space, please delete the record button first</source><translation>Недостаточно места, сначала удалите кнопку записи</translation></message>
+    <message><source>Insufficient space, please delete the record button first.</source><translation>Недостаточно места, сначала удалите кнопку записи.</translation></message>
+    <message><source>Media</source><translation>Медиа</translation></message>
+    <message><source>Volume-</source><translation>Громкость -</translation></message>
+    <message><source>Volume+</source><translation>Громкость +</translation></message>
+    <message><source>Mute</source><translation>Без звука</translation></message>
+    <message><source>Prev Track</source><translation>Пред трек</translation></message>
+    <message><source>Play/Pause</source><translation>Воспр/Пауза</translation></message>
+    <message><source>Next Track</source><translation>След трек</translation></message>
+    <message><source>Email</source><translation>Email</translation></message>
+    <message><source>Web/Home</source><translation>Web/Home</translation></message>
+    <message><source>Calculator</source><translation>Калькулятор</translation></message>
+    <message><source>www back</source><translation>Пред страница</translation></message>
+    <message><source>www forward</source><translation>След страница</translation></message>
+    <message><source>www stop</source><translation>Стоп</translation></message>
+    <message><source>www refresh</source><translation>Обновить</translation></message>
+    <message><source>www search</source><translation>Поиск</translation></message>
+    <message><source>Favorite</source><translation>Избранное</translation></message>
+    <message><source>My computer</source><translation>Проводник</translation></message>
+    <message><source>My PC</source><translation>Проводник</translation></message>
+    <message><source>Select All</source><translation>Выбрать все</translation></message>
+    <message><source>Copy</source><translation>Копировать</translation></message>
+    <message><source>Cut</source><translation>Вырезать</translation></message>
+    <message><source>Paste</source><translation>Вставить</translation></message>
+    <message><source>Undo</source><translation>Отмена</translation></message>
+    <message><source>Save</source><translation>Сохр</translation></message>
+    <message><source>Lock window</source><translation>Блок окна</translation></message>
+    <message><source>Show desktop</source><translation>Рабочий стол</translation></message>
+    <message><source>Switch window</source><translation>Смена окна</translation></message>
+    <message><source>Minimize all window</source><translation>Свернуть окна</translation></message>
+    <message><source>Close current window</source><translation>Закрыть окно</translation></message>
+    <message><source>Minimize</source><translation>Свернуть</translation></message>
+    <message><source>Maximize</source><translation>Развернуть</translation></message>
+    <message><source>Close application</source><translation>Закрыть приложение</translation></message>
+    
+    <message><source>Please update to the latest firmware to use</source><translation>Обновите прошивку до актуальной версии</translation></message>
+    <message><source>All settings will be restored, are you sure you want to continue?</source><translation>Сброс всех настроек. Хотите продолжить? </translation></message>
+    <message><source>The firmware is already the latest version and no upgrade is required.</source><translation>Прошивка актуальной версии</translation></message>
+    <message><source>Warning</source><translation>Осторожно</translation></message>
+    <message><source>Warning!</source><translation>Осторожно!</translation></message>
+    <message><source>Please insert USB device</source><translation>Подключите USB устройство</translation></message>
+    
+    <message><source>intercept</source><translation>Перехват</translation></message>
+    <message><source>times play</source><translation>Играть кол-во раз</translation></message>
+    <message><source>hold play</source><translation>Приостановить</translation></message>
+    <message><source>loop play</source><translation>Зациклить</translation></message>
+    <message><source>times buffered</source><translation>Буфферизация</translation></message>
+    <message><source>loop any break</source><translation>Цикл любого разрыва</translation></message>
+    <message><source>loop other break</source><translation>Цикл другой разрыв</translation></message>
+    
+    <message><source>Firmware</source><translation>Прошивка</translation></message>
+    <message><source>Earlier version</source><translation>Ранняя версия</translation></message>
+    <message><source>Restore</source><translation>Восстановить</translation></message>
+    <message><source>Disconnected</source><translation>Отключено</translation></message>
+    <message><source>Connected</source><translation>Подключено</translation></message>
+    <message><source>Repeat</source><translation>Повтор</translation></message>
+    <message><source>Delay</source><translation>Задерж</translation></message>
+    <message><source>Apply</source><translation>Применить</translation></message>
+    <message><source>Exit</source><translation>Выход</translation></message>
+    <message><source>Upgrade</source><translation>Обновить</translation></message>
+    <message><source>Recording keys</source><translation>Клавиши записи</translation></message>
+    <message><source>MGroup</source><translation>М-группа</translation></message>
+    <message><source>Keys and delay</source><translation>Клавиши и задержка</translation></message>
+
+    <message><source>Macro key</source><translation>Макроклавиша</translation></message>
+    <message><source>Single key</source><translation>Одна клавиша</translation></message>
+    <message><source>Media key</source><translation>Медиа клавиша</translation></message>
+    <message><source>Function key</source><translation>Функ клавиша</translation></message>
+
+    <message><source>Repeat times</source><translation>Повторение раз</translation></message>
+    <message><source>Delay time</source><translation>Время задержки</translation></message>
+    <message><source>No Delay</source><translation>Без задержки</translation></message>
+    <message><source>Start record</source><translation>Начать запись</translation></message>
+    <message><source>Stop record</source><translation>Остановить запись</translation></message>
+
+    <message><source>Record Delay</source><translation>Задержка записи</translation></message>
+    <message><source>Fixed Delay</source><translation>Фиксированая задержка</translation></message>
+
+    <message><source>Code</source><translation>Код</translation></message>
+    <message><source>Name</source><translation>Имя</translation></message>
+    <message><source>State</source><translation>Состояние</translation></message>
+    <message><source>Delay/ms</source><translation>Задержка (мс)</translation></message>
+    <message><source>Control</source><translation>Контроль</translation></message>
+
+    <message><source>Media Sel</source><translation>Выбор медиа</translation></message>
+    <message><source>CD Stop</source><translation>CD стоп</translation></message>
+    <message><source>Open</source><translation>Открыть</translation></message>
+    <message><source>Close</source><translation>Закрыть</translation></message>
+    <message><source>Search</source><translation>Поиск</translation></message>
+    <message><source>Select All</source><translation>выбрать все</translation></message>
+    <message><source>Zoom Out</source><translation>Уменьшить</translation></message>
+    <message><source>Zoom In</source><translation>Увеличить</translation></message>
+
+    <message><source>Synchronous</source><translation>Синхронный</translation></message>
+    <message><source>DPI Index</source><translation>DPI Index</translation></message>
+    <message><source>DPI grade</source><translation>DPI grade</translation></message>
+    <message><source>Constantly bright</source><translation>Постоянная яркость</translation></message>
+    <message><source>Streamer</source><translation>Стример</translation></message>
+    <message><source>Transparent mode</source><translation>Режим "Прозрачность"</translation></message>
+    
+
+    
+    <message><source>Can only record up to 40 keys.</source><translation>Можно записать только до 40 клавиш</translation></message>
+    
+    <message><source>Failed to start the upgrade exe</source><translation>Не удалось запустить файл обновления</translation></message>
+    <message><source>Please press the keyboard to get the key</source><translation>Нажмите на клавиатуру для получения ключа</translation></message>
+    <message><source>Failed to open USB</source><translation>Не удалось запустить USB</translation></message>
+    <message><source>OK</source><translation>ОК</translation></message>
+    <message><source>Cancel</source><translation>Отменить</translation></message>
+    <message><source>Delete</source><translation>Удалить</translation></message>
+    <message><source>Layout</source><translation>Окно</translation></message>
+  </context>
+  <context name="messagebox">
+    <message><source>ok</source><translation>ОК</translation></message>
+    <message><source>cancel</source><translation>Отменить</translation></message>
+    <message><source>retry</source><translation>Повторить</translation></message>
+  </context>
+  <context name="dlg_main">
+    <message><source>Panel Led</source><translation>Панель LED</translation></message>
+    <message><source>Side Led</source><translation>Боковая LED</translation></message>
+    
+    <message><source>wave</source><translation>wave</translation></message>
+    <message><source>const</source><translation>const</translation></message>
+    <message><source>breathe</source><translation>breathe</translation></message>
+    <message><source>heartrate</source><translation>heartrate</translation></message>
+    <message><source>point</source><translation>point</translation></message>
+    <message><source>winnower</source><translation>winnower</translation></message>
+    <message><source>stars</source><translation>stars</translation></message>
+    <message><source>spectrum</source><translation>spectrum</translation></message>
+    <message><source>plumflower</source><translation>plumflower</translation></message>
+    <message><source>shoot</source><translation>shoot</translation></message>
+    <message><source>ambilight roate</source><translation>ambilight roate</translation></message>
+    <message><source>ripple</source><translation>ripple</translation></message>
+    <message><source>custom</source><translation>custom</translation></message>
+
+    <message><source>Multilayer</source><translation>Многослойный</translation></message>
+    <message><source>MultiZone</source><translation>MultiZone</translation></message>
+
+    <message><source>Foreground</source><translation>Передний план</translation></message>
+    <message><source>Background</source><translation>Фон</translation></message>
+    <message><source>ForegroundBrightness</source><translation>Яркость</translation></message>
+    <message><source>BackroundBrightness</source><translation>Яркость</translation></message>
+    <message><source>Clockwise</source><translation>По часовой</translation></message>
+    <message><source>Anticlock</source><translation>Против часовой</translation></message>
+    <message><source>Custom 1</source><translation>Custom 1</translation></message>
+    <message><source>Custom 2</source><translation>Custom 2</translation></message>
+    <message><source>Custom 3</source><translation>Custom 3</translation></message>
+    <message><source>Custom 4</source><translation>Custom 4</translation></message>
+    <message><source>Custom 5</source><translation>Custom 5</translation></message>
+
+    <message><source>Custom</source><translation>Кастом</translation></message>
+    <message><source>Top</source><translation>Верх</translation></message>
+    <message><source>Bottom</source><translation>Низ</translation></message>
+ 
+    <message><source>close</source><translation>Закрыть</translation></message>
+    <message><source>Keyboard</source><translation>Клавиатура</translation></message>
+    <message><source>Mouse</source><translation>Мышь</translation></message>
+    <message><source>Headset</source><translation>Наушники</translation></message>
+
+    <message><source>Macro</source><translation>Макросы</translation></message>
+    <message><source>Macro record</source><translation>Запись макросов</translation></message>
+    <message><source>Panel Led</source><translation>LED Подсветка</translation></message>
+    <message><source>Panel</source><translation>Подсветка</translation></message>
+    <message><source>LED</source><translation>LED</translation></message>
+    <message><source>Settings</source><translation>Настройки</translation></message>
+
+    <message><source>Color effects</source><translation>Цветовые эффекты</translation></message>
+    <message><source>Speed</source><translation>Скорость</translation></message>
+    <message><source>Direction</source><translation>Направление</translation></message>
+    <message><source>Left</source><translation>Лево</translation></message>
+    <message><source>Right</source><translation>Право</translation></message>
+    <message><source>Color</source><translation>Цвет</translation></message>
+    <message><source>Brightness</source><translation>Яркость</translation></message>
+
+    <message><source>Area1</source><translation>Зона 1</translation></message>
+    <message><source>Area2</source><translation>Зона 2</translation></message>
+    <message><source>Area3</source><translation>Зона 3</translation></message>
+    <message><source>Area4</source><translation>Зона 4</translation></message>
+    <message><source>Area5</source><translation>Зона 5</translation></message>
+    <message><source>Area6</source><translation>Зона 6</translation></message>
+
+    <message><source>Enable button reporting</source><translation>Включить отчеты по кнопкам</translation></message>
+    <message><source>Enable other reports</source><translation>Включить другие отчеты</translation></message>
+    <message><source>Clear escalation</source><translation>Очистить эскалацию</translation></message>
+    <message><source>Reset lights</source><translation>Сбросить огни</translation></message>
+    <message><source>Reset custom lights</source><translation>Сбросить пользовательские огни</translation></message>
+    <message><source>Reset macro recording</source><translation>Сбросить запись макроса</translation></message>
+
+    <message><source>P1</source><translation>P1</translation></message>
+    <message><source>P2</source><translation>P2</translation></message>
+    <message><source>P3</source><translation>P3</translation></message>
+  </context>
+</language>

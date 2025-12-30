@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<imglist name="skin_traymenu_icons" src="img:traymenu_icons" states="9" />
+	<imgframe name="skin_bg_png" src="kb_macro:bg_png" />
+	<imglist name="skin_ico_keyboard_table_png" src="main:ico_keyboard_table_png" states="3" />
+	<imglist name="skin_table_main_bg_png" src="main:table_main_bg_png" states="3" />
+	<imglist name="skin_table_main_checked_png" src="main:table_main_checked_png" states="2" />
+	<imglist name="skin_table_main_float_png" src="main:table_main_float_png" states="3" />
+	<imglist name="skin_table_main_icon_png" src="main:table_main_icon_png" states="4" />
+	<imglist name="skin_state_func_bg_png" src="main:state_func_bg_png" states="3" />
+	<imgframe name="skin_ioc_func_macro_png" src="main:ioc_func_macro_png" />
+	<imgframe name="skin_ioc_func_rgb_png" src="main:ioc_func_rgb_png" />
+	<imgframe name="skin_cbox_profile_normal_png" src="main:cbox_profile_normal_png" />
+	<imgframe name="skin_cbox_profile_selected_png" src="main:cbox_profile_selected_png" />
+	<imgframe name="skin_cbox_profile_ico_png" src="main:cbox_profile_ico_png" />
+	<imgframe name="skin_img_keboard_normal_png" src="main:img_keboard_normal_png" />
+	<imgframe name="skin_img_keboard_floating_png" src="main:img_keboard_floating_png" />
+	<imgframe name="skin_img_keboard_pressed_png" src="main:img_keboard_pressed_png" />
+	<imgframe name="skin_img_keboard_checked_png" src="main:img_keboard_checked_png" />
+	<imgframe name="skin_win_macro_bg_png" src="main:win_macro_bg_png" />
+	<imgframe name="skin_bg_macr_keys_png" src="main:bg_macr_keys_png" />
+	<imglist name="skin_state_del_png" src="main:state_del_png" states="3" />
+	<imglist name="skin_state_add_png" src="main:state_add_png" states="3" />
+	<imglist name="skin_state_capture_png" src="main:state_capture_png" states="3" />
+	<imglist name="skin_state_import_png" src="main:state_import_png" states="3" />
+	<imglist name="skin_state_export_png" src="main:state_export_png" states="3" />
+	<imglist name="skin_state_up_png" src="main:state_up_png" states="3" />
+	<imglist name="skin_state_down_png" src="main:state_down_png" states="3" />
+	<imglist name="skin_state_record_png" src="main:state_record_png" states="3" autoFit="1" tile="0" />
+	<imglist name="skin_state_ok_png" src="main:state_ok_png" states="3" />
+	<imglist name="skin_state_cancel_png" src="main:state_cancel_png" states="3" />
+	<imgframe name="skin_bg_macro_group_png" src="main:bg_macro_group_png" />
+	<imgframe src="main:image_bg_macro_content_png" name="image_bg_macro_content_png" />
+	<imgframe name="skin_bg_progress_bg_png" src="main:bg_progress_bg_png" />
+	<imgframe name="skin_bg_progress_pos_png" src="main:bg_progress_pos_png" />
+	<imglist name="skin_state_progres_thum_png" src="main:state_progres_thum_png" states="3" />
+	<imgframe name="skin_icon_color_effects_png" src="main:icon_color_effects_png" />
+	<imglist name="skin_state_color_effects_png" src="main:state_color_effects_png" states="3" />
+	<imglist name="skin_state_color_select_png" src="main:state_color_select_png" autoFit="1" tile="0" states="3" />
+	<imglist name="skin_state_clear_png" src="main:state_clear_png" states="3" />
+	<imglist name="skin_state_clear_png" src="main:state_clear_png" states="3" />
+	<imglist name="skin_more_menu_png" src="main:more_menu_png" states="3" />
+	<imgframe name="skin_img_keyboard_png" src="main:img_keyboard_png" />
+	<imgframe name="skin_img_mouse_png" src="main:img_mouse_png" />
+	<imgframe name="skin_img_headset_png" src="main:img_headset_png" />
+	<imgframe name="skin_img_mousepad_png" src="main:img_mousepad_png" />
+	<imglist name="skin_page_bg_png" src="main:page_bg_png" states="4" />
+	<imglist name="skin_img_keyboard_bg_png" src="main:img_keyboard_bg_png" states="4" />
+	<imglist name="skin_img_mouse_bg_png" src="main:img_mouse_bg_png" states="4" />
+	<imglist name="skin_icon_keyboard_png" src="main:icon_keyboard_png" states="4" />
+	<imglist name="skin_icon_mouse_png" src="main:icon_mouse_png" states="4" />
+	<imglist name="skin_icon_headset_png" src="main:icon_headset_png" states="4" />
+	<imglist name="skin_icon_mousepad_png" src="main:icon_mousepad_png" states="4" />
+	<imgframe name="skin_color_panel_png" src="main:color_panel_png" />
+	<imglist name="skin_state_auto_color_png" src="main:state_auto_color_png" states="3" />
+</skin>

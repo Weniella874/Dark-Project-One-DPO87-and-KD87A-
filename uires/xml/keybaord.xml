@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<include width="1024" height="530">
+  <tabctrl name="tab_func_selection" pos="100,130" size="1014,620" tabAlign="left" tabSkin="skin_state_func_bg_png" tabInterSize="5" tabWidth="180" tabHeight="80" colorText="#FFFFFF" focusable="1" show="1" curSel="0" font="face:Open Sans,size:18">
+    <page title="Macro" tip="Macro record" width="744" curSel="1">
+      <cbimg pos="164,30" size="506, 231" name="cbimg_macro_record" type="0" coords="/keyboardpos.xml" skin="skin_img_keyboard_bg_png" />
+    </page>
+
+    <page title="Panel Led" tip="Panel" >
+      <include src="layout:kbpanel" />
+    </page>
+    <!--<page title="Side Led" tip="Side Led" offset="0, 0">
+			<include src="layout:kbside" />
+		</page>-->
+    <page title="Settings" tip="Settings">
+      <!--<window pos="0,0" size="-2,-2" layout="vbox" gravity="center">-->
+      <window pos="0,0" size="-2,-2">
+        <imgbtn name="btn_kb_restore_factory" pos="240,130" size="328, 60" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff">Restore</imgbtn>
+        <imgbtn name="btn_set_key_mask" pos="240,260" size="328, 50" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Enable button reporting</imgbtn>
+        <imgbtn name="btn_set_other_mask" pos="240,260" size="328, 50" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Enable other reports</imgbtn>
+        <imgbtn name="btn_clear_all_mask" pos="240,260" size="328, 50" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Clear escalation</imgbtn>
+        <imgbtn name="btn_kb_reset_led" pos="240,260" size="328, 50" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Reset lights</imgbtn>
+        <imgbtn name="btn_kb_reset_led_custom" pos="240,320" size="328, 50" weight="1" tip="" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Reset custom lights</imgbtn>
+        <imgbtn name="btn_kb_reset_macro" pos="240,390" size="328, 50" tip="" weight="1" animate="1" skin="skin_state_record_png" colorText="#ffffffff" show="0">Reset macro recording</imgbtn>
+      </window>
+    </page>
+  </tabctrl>
+  <combobox inset="20,0" name="kb_cmb_profile" size="180, 40" dropHeight="150" dotted="0" curSel="0" drawFocusRect="0" colorText="#ffffffff" pos="{0,348" skin="skin_cbox_profile_normal_png" btnSkin="skin_cbox_profile_ico_png" autoFitDropBtn="1" dropDown="1" visible="0">
+    <liststyle text-x="20" inset="30,0" iconSkin="" itemSkin="" itemHeight="40" colorText="#000000" colorSelText="#FFFFFF" colorItemBkgnd="#FFFFFF" colorItemSelBkgnd="rgb(51,153,255)" />
+    <editstyle inset="5,0,5,0" colorText="#000000" align="left" enable="0" colorBkgnd="#ffffffff" />
+    <items>
+      <item text="P1" data="0" />
+      <item text="P2" data="1" />
+      <item text="P3" data="2" />
+      <item text="P4" data="3" />
+    </items>
+  </combobox>
+  <text pos="{0,-20" name="version" align="right" layout_xGravity="right" />
+</include>

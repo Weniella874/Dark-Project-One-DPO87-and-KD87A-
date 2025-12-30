@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<resource>
+	<template src="values:color_panel" />
+	<UIDEF>
+		<file name="XML_INIT" path="uidef\init.xml" />
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+		<file name="macro" path="xml\macro.xml" />
+		<file name="SYS_XML_MSGBOX" path="xml\sys_xml_msgbox.xml" />
+		<file name="keybaord" path="xml\keybaord.xml" />
+		<file name="kbpanel" path="xml\kbpanel.xml" />
+		<file name="kbside" path="xml\kbside.xml" />
+		<file name="color_panel" path="xml\color_panel.xml" />
+		<file name="direction" path="xml\direction.xml" />
+	</LAYOUT>
+	<values>
+		<file name="string" path="values\string.xml" />
+		<file name="color" path="values\color.xml" />
+		<file name="skin" path="values\skin.xml" />
+	</values>
+	<IMG />
+	<ICON>
+		<file name="ICON_LOGO" path="image\logo.ico" />
+	</ICON>
+	<translator>
+		<file name="lang_cn" path="translator\lang_cn.xml" />
+		<file name="lang_en" path="translator\lang_en.xml" />
+	</translator>
+	<SMENU>
+		<file name="menu_tray" path="xml\menu_tray.xml" />
+	</SMENU>
+	<SMENUEX>
+		<file name="menu_more" path="xml\menu_more.xml" />
+	</SMENUEX>
+	<kb_macro>
+		<file name="bg_png" path="image\bg.png" />
+	</kb_macro>
+	<main>
+		<file name="table_main_bg_png" path="image\table_main_bg.png" />
+		<file name="table_main_icon_png" path="image\table_main_icon.png" />
+		<file name="state_func_bg_png" path="image\state_func_bg.png" />
+		<file name="ioc_func_macro_png" path="image\ioc_func_macro.png" />
+		<file name="ioc_func_rgb_png" path="image\ioc_func_rgb.png" />
+		<file name="cbox_profile_normal_png" path="image\cbox_profile_normal.png" />
+		<file name="cbox_profile_selected_png" path="image\cbox_profile_selected.png" />
+		<file name="cbox_profile_ico_png" path="image\cbox_profile_ico.png" />
+		<file name="win_macro_bg_png" path="image\win_macro_bg.png" />
+		<file name="bg_macr_keys_png" path="image\bg_macr_keys.png" />
+		<file name="state_del_png" path="image\state_del.png" />
+		<file name="state_add_png" path="image\state_add.png" />
+		<file name="state_capture_png" path="image\state_capture.png" />
+		<file name="state_import_png" path="image\state_import.png" />
+		<file name="state_export_png" path="image\state_export.png" />
+		<file name="state_up_png" path="image\state_up.png" />
+		<file name="state_down_png" path="image\state_down.png" />
+		<file name="state_record_png" path="image\state_record.png" />
+		<file name="state_ok_png" path="image\state_ok.png" />
+		<file name="state_cancel_png" path="image\state_cancel.png" />
+		<file name="bg_macro_group_png" path="image\bg_macro_group.png" />
+		<file name="image_bg_macro_content_png" path="image\bg_macro_content.png" />
+		<file name="bg_progress_bg_png" path="image\bg_progress_bg.png" />
+		<file name="bg_progress_pos_png" path="image\bg_progress_pos.png" />
+		<file name="state_progres_thum_png" path="image\state_progres_thum.png" />
+		<file name="icon_color_effects_png" path="image\icon_color_effects.png" />
+		<file name="state_color_effects_png" path="image\state_color_effects.png" />
+		<file name="state_color_select_png" path="image\state_color_select.png" />
+		<file name="state_clear_png" path="image\state_clear.png" />
+		<file name="more_menu_png" path="image\more_menu.png" />
+		<file name="img_keboard_demo_png" path="image\img_keboard_demo.png" />
+		<file name="page_bg_png" path="image\page_bg.png" />
+		<file name="img_keyboard_bg_png" path="image\img_keyboard_bg.png" />
+		<file name="icon_keyboard_png" path="image\icon_keyboard.png" />
+		<file name="color_panel_png" path="image\color_panel.png" />
+		<file name="state_auto_color_png" path="image\state_auto_color.png" />
+	</main>
+</resource>

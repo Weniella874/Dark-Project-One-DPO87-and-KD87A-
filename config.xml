@@ -1,0 +1,74 @@
+﻿<local language="cn"/>
+<usb vid="1a2c" pid="1512" interface="1" subdevice="7"/>
+
+<funkey>
+    <!--<key name="Media Sel" code="181"/>
+    <key name="Volume-" code="174" />
+    <key name="Volume+" code="175" />
+    <key name="Mute" code="173" />
+    <key name="Prev Track" code="177" />
+    <key name="Play/Pause" code="179" />
+    <key name="Next Track" code="176" />
+    <key name="Email" code="10002" path="mailto:"/>
+    <key name="Web/Home" code="172" />
+    <key name="Calculator" code="10000" path="calc.exe" />
+    <key name="www back" code="166" />
+    <key name="www forward" code="167" />
+    <key name="www stop" code="169" />
+    <key name="www refresh" code="168" />
+    <key name="www search" code="170" />
+    <key name="Favorite" code="171" />
+    <key name="My PC" code="10001" path="Explorer.exe" argm="::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"/>-->
+    <key name="Media" code="247" />
+    <key name="Volume-" code="233" />
+    <key name="Volume+" code="232" />
+    <key name="Mute" code="234" />
+    <key name="CD Stop" code="235" />
+    <key name="Prev Track" code="238" />
+    <key name="Play/Pause" code="236" />
+    <key name="Next Track" code="237" />
+    <key name="Email" code="246" />
+    <key name="Web/Home" code="245" />
+    <key name="Calculator" code="249" />
+    <key name="www back" code="240" />
+    <key name="www forward" code="239" />
+    <!--<key name="www stop" code="244" />-->
+    <!--<key name="www refresh" code="243" />-->
+    <key name="www search" code="241" />
+    <!--<key name="Favorite" code="242" />-->
+    <key name="My PC" code="248" />
+</funkey>
+
+<combkey>
+<!--<key name="名称" code="虚拟键:延时, 虚拟键, 虚拟键:延时" info="备注"/>-->
+    <!--<key name="Select All" code="162, 65" info="ctrl+a" />
+    <key name="Copy" code="162, 67" info="ctrl+c" />
+    <key name="Cut" code="162, 88" info="ctrl+x" />
+    <key name="Paste" code="162, 86" info="ctr+v" />
+    <key name="Undo" code="162, 90" info="ctrl+z" />
+    <key name="Save" code="162, 83" info="ctrl+s" />
+    <key name="Lock window" code="91, 76" info="win+l" />
+    <key name="Show desktop" code="91, 68" info="win+d" />
+    <key name="Switch window" code="164:200, 9" info="alt+tab" />
+    <key name="Minimize all window" code="91, 77" info="win+m" />
+    <key name="Close current window" code="162, 87" info="ctrl+w" />
+    <key name="Minimize" code="164, 32:200, 88" info="alt+spacebar+x" />
+    <key name="Maximize" code="164, 32:200, 78" info="alt+spacebar+n" />
+    <key name="Close application" code="164, 115" info="alt+f4" />-->
+
+    <key name="Select All" code="224, 4" info="ctrl+a" />
+    <key name="Copy" code="224, 6" info="ctrl+c" />
+    <key name="Cut" code="224, 27" info="ctrl+x" />
+    <key name="Paste" code="224, 25" info="ctr+v" />
+    <key name="Undo" code="224, 29" info="ctrl+z" />
+    <key name="Save" code="224, 22" info="ctrl+s" />
+    <key name="My computer" code="227, 8" info="win+e" />
+    <key name="Lock window" code="227, 15" info="win+l" />
+    <key name="Show desktop" code="227, 7" info="win+d" />
+    <key name="Switch window" code="226, 43" info="alt+tab" />
+    <key name="Minimize all window" code="227, 16" info="win+m" />
+    <key name="Close current window" code="224, 26" info="ctrl+w" />
+    <key name="Minimize" code="226, 44, 27" info="alt+spacebar+x" />
+    <key name="Maximize" code="226, 44, 17" info="alt+spacebar+n" />
+    <key name="Close application" code="226, 61" info="alt+f4" />
+</combkey>
